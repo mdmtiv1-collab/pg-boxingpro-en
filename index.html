@@ -2283,13 +2283,12 @@
         }
 
         let url = '';
-        const currentVariant = isHomeEdition ? 'casa' : 'default';
         if (type === 'premium') {
-          url = `https://checkout.boxingpro.com/premium?lang=${currentLang}&v=${currentVariant}`;
+          url = 'https://pay.hotmart.com/D106759718T?off=ozw76z4m&checkoutMode=10';
         } else if (type === 'downsell') {
-          url = `https://checkout.boxingpro.com/premium-discount?lang=${currentLang}&v=${currentVariant}`;
+          url = 'https://pay.hotmart.com/D106759718T?off=4dxeys36&checkoutMode=10';
         } else if (type === 'basic-confirmed') {
-          url = `https://checkout.boxingpro.com/basic?lang=${currentLang}&v=${currentVariant}`;
+          url = 'https://pay.hotmart.com/D106759718T?off=fb9b7956&checkoutMode=10';
         }
         
         // Open Checkout in a new window or redirect
